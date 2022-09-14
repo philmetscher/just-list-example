@@ -1,5 +1,12 @@
 @import "./components/font/font.css";
 
+:root {
+  --primary: #6996db;
+  --primary-light: #f0f6ff;
+  --secondary: #333333;
+  --card-bg: #dddbdb;
+}
+
 *,
 *::before,
 *::after {
