@@ -1,0 +1,55 @@
+@import "./global.css";
+
+.ctrl--login {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+}
+
+.ctrl--login img {
+  margin-bottom: 10px;
+}
+.ctrl--login .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #fff;
+  margin-top: 10px;
+  padding: 0 20px 0 0;
+}
+.ctrl--login i.icon {
+  display: inline-block;
+  background: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+}
+.ctrl--login i.icon::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: var(--primary);
+  margin: 10px;
+}
+.ctrl--login i.icon.icon__door::before {
+  mask-image: url(./components/images/icons/door.svg);
+  -webkit-mask-image: url(./components/images/icons/door.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
+.ctrl--login i.icon.icon__google::before {
+  mask-image: url(./components/images/icons/google.svg);
+  -webkit-mask-image: url(./components/images/icons/google.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+}
