@@ -25,9 +25,74 @@ body {
 body {
   font-family: "Product Sans", sans-serif;
   font-size: 1rem;
+  padding: 0 20px;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+/* general underlining with text-decoration */
+.underline {
+  text-decoration: underline;
+}
+
+/* general form */
+.form {
+  width: 100%;
+}
+.form .input-group {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/* input */
+.form .input-group input {
+  padding: 9px 16px;
+  border: 1px solid #fff;
+  border-radius: 22px;
+  background: transparent;
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 24px;
+  width: 100%;
+}
+.form .input-group input:focus {
+  outline: none;
+}
+.form .input-group input::placeholder {
+  color: transparent;
+}
+
+/* label */
+.form .input-group label {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  font-size: 1.25rem;
+  line-height: 24px;
+  pointer-events: none;
+  color: transparent;
+}
+.form .input-group label small {
+  font-size: 0.625rem;
+}
+.form .input-group input:placeholder-shown + label {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* submit */
+.form button[type="submit"] {
+  padding: 10px 17px;
+  border: none;
+  border-radius: 22px;
+  background: #fff;
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
 }

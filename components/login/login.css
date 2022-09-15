@@ -1,0 +1,25 @@
+@import "/global.css";
+
+.ctrl--login {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+  position: relative;
+}
+
+.ctrl--login img {
+  position: absolute;
+  top: 60px;
+}
+
+.form.form__login button[type="submit"] {
+  margin-bottom: 22px;
+}
+
+.register-info a {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+}
