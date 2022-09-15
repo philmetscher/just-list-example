@@ -20,35 +20,16 @@
   padding: 0 20px 0 0;
 }
 .ctrl--main i.icon {
-  display: inline-block;
   background: #fff;
   width: 44px;
   height: 44px;
   border-radius: 100%;
 }
 .ctrl--main i.icon::before {
-  display: block;
-  content: "";
-  width: 24px;
-  height: 24px;
   background: var(--primary);
   margin: 10px;
 }
-.ctrl--main i.icon.icon__door::before {
-  mask-image: url(./components/images/icons/door.svg);
-  -webkit-mask-image: url(./components/images/icons/door.svg);
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: cover;
-  -webkit-mask-size: cover;
-}
 .ctrl--main i.icon.icon__google::before {
-  mask-image: url(./components/images/icons/google.svg);
-  -webkit-mask-image: url(./components/images/icons/google.svg);
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: cover;
-  -webkit-mask-size: cover;
   width: 20px;
   height: 20px;
   margin: 12px;

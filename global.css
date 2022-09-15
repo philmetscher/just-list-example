@@ -1,5 +1,6 @@
 @import "./components/font/font.css";
 @import "./components/button/button.css";
+@import "./components/icons/icons.css";
 
 :root {
   --primary: #6996db;
